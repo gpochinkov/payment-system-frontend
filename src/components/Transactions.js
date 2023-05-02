@@ -53,8 +53,8 @@ function Transactions() {
               <td>{transaction.id}</td>
               <td>{transaction.uuid}</td>
               <td>{transaction.type}</td>
-              <td>{transaction.email}</td>
-              <td>{transaction.phone}</td>
+              <td>{transaction.customerEmail}</td>
+              <td>{transaction.customerPhone}</td>
               <td>{transaction.amount}</td>
               <td>{transaction.status}</td>
               <td>{transaction.merchantId}</td>
